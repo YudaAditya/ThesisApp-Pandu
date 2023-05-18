@@ -1,0 +1,111 @@
+<eps> <eps> SIL
+<unk> <unk> SIL_S
+akademik akademik a_B k_I a_I d_I e_I m_I i_I k_E
+akademik akademik a_B ka_I de_I mi_I k_E
+basi basi b_B a_I s_I i_E
+basi basi b_B ey_I s_I iy_E
+basi basi ba_B si_E
+basis basis b_B a_I s_I i_I s_E
+basis basis b_B ey_I s_I ih_I s_E
+basis basis ba_B si_I s_E
+cctv cctv c_B c_I t_I v_E
+cewe cewe c_B e_I w_I e_E
+cewe cewe ce_B we_E
+cewek cewek c_B e_I w_I e_I k_E
+cewek cewek ce_B we_I k_E
+cowo cowo c_B o_I w_I o_E
+cowo cowo co_B wo_E
+cowok cowok c_B o_I w_I o_I k_E
+cowok cowok co_B wo_I k_E
+d d d_B iy_E
+d d d_S
+data data d_B a_I t_I a_E
+data data d_B ae_I t_I ah_E
+data data da_B ta_E
+dekan dekan d_B e_I k_I a_I n_E
+dekan dekan de_B ka_I n_E
+dua dua d_B u_I w_I a_E
+dua dua du_B wa_E
+farmasi farmasi f_B a_I r_I m_I a_I s_I i_E
+farmasi farmasi fa_B r_I ma_I si_E
+gis gis g_B i_I s_E
+gis gis gi_B s_E
+informatika informatika i_B n_I f_I o_I r_I m_I a_I t_I i_I k_I a_E
+informatika informatika i_B n_I fo_I r_I ma_I ti_I ka_E
+jaringan jaringan j_B a_I r_I i_I n_I g_I a_I n_E
+jaringan jaringan ja_B ri_I ng_I a_I n_E
+jarkom jarkom j_B a_I r_I k_I o_I m_E
+jarkom jarkom ja_B r_I ko_I m_E
+jurusan jurusan j_B u_I r_I u_I s_I a_I n_E
+jurusan jurusan ju_B ru_I sa_I n_E
+kamar kamar k_B a_I m_I a_I r_E
+kamar kamar ka_B ma_I r_E
+keluar keluar k_B e_I l_I u_I w_I a_I r_E
+keluar keluar ke_B lu_I wa_I r_E
+kemahasiswaan kemahasiswaan k_B e_I m_I a_I h_I a_I s_I i_I s_I w_I a_I a_I n_E
+kemahasiswaan kemahasiswaan ke_B ma_I ha_I si_I s_I wa_I a_I n_E
+kepegawaian kepegawaian k_B e_I p_I e_I g_I a_I w_I a_I i_I a_I n_E
+kepegawaian kepegawaian ke_B pe_I ga_I wa_I i_I a_I n_E
+kepegawaian kepegawaian ke_B pe_I ga_I wa_I ya_I n_E
+komputer komputer k_B o_I m_I p_I u_I t_I e_I r_E
+komputer komputer ko_B m_I pu_I te_I r_E
+lab lab l_B a_I b_E
+lab lab la_B b_E
+laboratorium laboratorium l_B a_I b_I o_I r_I a_I t_I o_I r_I i_I y_I u_I m_E
+laboratorium laboratorium la_B bo_I ra_I to_I ri_I yu_I m_E
+laki laki l_B a_I k_I i_E
+laki laki la_B ki_E
+mandi mandi m_B a_I n_I d_I i_E
+mandi mandi m_B ae_I n_I d_I iy_E
+mandi mandi ma_B n_I di_E
+masuk masuk m_B a_I s_I u_I k_E
+masuk masuk ma_B su_I k_E
+mi mi m_B i_E
+mi mi m_B iy_E
+mi mi mi_S
+mining mining m_B i_I n_I i_I n_I g_E
+mining mining mi_B ni_I ng_E
+multimedia multimedia m_B u_I l_I t_I i_I m_I e_I d_I i_I a_E
+multimedia multimedia mu_B l_I ti_I me_I di_I ya_E
+mushala mushala m_B u_I s_I h_I a_I l_I a_E
+mushala mushala mu_B s_I ha_I l_I la_E
+perempuan perempuan p_B e_I r_I e_I m_I p_I u_I w_I a_I n_E
+perempuan perempuan pe_B re_I m_I pu_I wa_I n_E
+pintu pintu p_B i_I n_I t_I u_E
+pintu pintu pi_B n_I tu_E
+pria pria p_B r_I i_I y_I a_E
+pria pria p_B ri_I ya_E
+ruang ruang r_B u_I w_I a_I n_I g_E
+ruang ruang ru_B wa_I ng_E
+satu satu s_B a_I t_I u_E
+satu satu sa_B tu_E
+seminar seminar s_B e_I m_I i_I n_I a_I r_E
+seminar seminar s_B eh_I m_I ah_I n_I aa_I r_E
+seminar seminar se_B mi_I na_I r_E
+shalat shalat s_B h_I a_I l_I a_I t_E
+shalat shalat s_B ha_I la_I t_E
+surau surau s_B u_I r_I a_I u_E
+surau surau su_B ra_I u_E
+tata tata t_B a_I t_I a_E
+tata tata t_B aa_I t_I ah_E
+tata tata ta_B ta_E
+tempat tempat t_B e_I m_I p_I a_I t_E
+tempat tempat te_B m_I pa_I t_E
+tiga tiga t_B i_I g_I a_E
+tiga tiga ti_B ga_E
+toilet toilet t_B o_I y_I i_I l_I e_I t_E
+toilet toilet t_B oy_I l_I ah_I t_E
+toilet toilet to_B yi_I le_I t_E
+tu tu t_B u_E
+tu tu t_B uw_E
+tu tu tu_S
+usaha usaha u_B s_I a_I h_I a_E
+usaha usaha u_B sa_I ha_E
+utama utama u_B t_I a_I m_I a_E
+utama utama u_B ta_I ma_E
+wakil wakil w_B a_I k_I i_I l_E
+wakil wakil wa_B ki_I l_E
+wanita wanita w_B a_I n_I i_I t_I a_E
+wanita wanita wa_B ni_I ta_E
+wc wc w_B c_E
+wd wd w_B d_E
