@@ -17,30 +17,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import id.ac.unsyiah.panduapp.ui.homescreen.PanduHomeScreen
-import id.ac.unsyiah.panduapp.ui.theme.PanduTheme
-
-import org.json.JSONException
-
-import org.json.JSONObject
-
-import org.vosk.LibVosk
-
-import org.vosk.LogLevel
-
-import org.vosk.Model
-
-import org.vosk.Recognizer
-
+import com.example.compose.PanduTheme
 import org.vosk.android.RecognitionListener
-
-import org.vosk.android.SpeechService
-
-import org.vosk.android.SpeechStreamService
-
-import org.vosk.android.StorageService
-
-import java.lang.Exception
 
 class MainActivity : ComponentActivity(), RecognitionListener {
 private val START_STATE = 1;
@@ -107,6 +85,6 @@ fun PanduLayout(
 @Composable
 fun DefaultPreview() {
     PanduTheme {
-        PanduLayout()
+        MainScreen()
     }
 }
