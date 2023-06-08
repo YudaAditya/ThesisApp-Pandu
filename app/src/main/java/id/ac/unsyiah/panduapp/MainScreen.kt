@@ -1,7 +1,10 @@
 package id.ac.unsyiah.panduapp
 
 import android.annotation.SuppressLint
-import androidx.compose.material3.BottomAppBar
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -9,7 +12,6 @@ import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -18,6 +20,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
+import androidx.compose.ui.res.painterResource
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.compose.rememberNavController
 import id.ac.unsyiah.panduapp.ui.navigation.BottomBarScreen
@@ -32,7 +35,6 @@ fun MainScreen() {
 
 
     //BottomBar Part
-    var navController = rememberNavController()
     val screens = listOf(
         BottomBarScreen.Navigasi,
         BottomBarScreen.Ruangan,
@@ -40,31 +42,34 @@ fun MainScreen() {
     )
     var selectedItem by remember { mutableStateOf(0) }
 
+    var navController = rememberNavController()
+
     //Navigation Bar & Top Bar
     Scaffold(
         modifier = Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
         topBar = {
-            TopAppBar(
+            CenterAlignedTopAppBar(
                 title = { Text(text = screens[selectedItem].title) },
-
             )
         },
+
+
         bottomBar = {
 //            BottomBar(navController = navController)
-            BottomAppBar() {
+//            BottomAppBar() {
                 NavigationBar() {
                     screens.forEachIndexed { index, bottomBarScreen ->
                         NavigationBarItem(
                             icon = {
                                 if (selectedItem == index) {
                                     Icon(
-                                        bottomBarScreen.selectedIcon!!,
+                                        painterResource(id = bottomBarScreen.selectedIcon),
                                         contentDescription = bottomBarScreen.title,
                                         tint = MaterialTheme.colorScheme.onSecondaryContainer
                                     )
                                 } else {
                                     Icon(
-                                        bottomBarScreen.icon,
+                                        painterResource(id = bottomBarScreen.icon),
                                         tint = MaterialTheme.colorScheme.onSurfaceVariant,
                                         contentDescription = bottomBarScreen.title,
 
@@ -96,10 +101,14 @@ fun MainScreen() {
                         )
                     }
                 }
-            }
+//            }
         }
-    ) {
-        BottomNavGraph(navController = navController)
+    ) { innerPadding ->
+        Box(modifier = Modifier.padding(
+            PaddingValues(top = innerPadding.calculateTopPadding(), bottom = innerPadding.calculateBottomPadding())
+        )){
+            BottomNavGraph(navController = navController)
+        }
     }
 
 }

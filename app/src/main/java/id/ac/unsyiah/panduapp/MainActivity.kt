@@ -21,7 +21,7 @@ import com.example.compose.PanduTheme
 import org.vosk.android.RecognitionListener
 
 class MainActivity : ComponentActivity(), RecognitionListener {
-private val START_STATE = 1;
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
          setContent {
@@ -31,7 +31,9 @@ private val START_STATE = 1;
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    MainScreen()
+                        Column {
+                            MainScreen()
+                        }
                 }
             }
         }
@@ -85,6 +87,8 @@ fun PanduLayout(
 @Composable
 fun DefaultPreview() {
     PanduTheme {
-        MainScreen()
+        Row() {
+            MainScreen()
+        }
     }
 }
